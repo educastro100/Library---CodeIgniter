@@ -1,0 +1,8 @@
+1) Instalar o Xampp
+2) Criar pasta do projeto na C:/xampp/htdocs/Nome_do_projeto
+3) Abre a url 'localhost/Nome_do_projeto'
+4) Define no application/config/config.php o url base como o nome do projeto ]
+5) Define em application/config/routes.php o controller inicial que será chamado quando executar a página.
+6) Cria Controller que será chamado e sua view.
+
+
