@@ -66,13 +66,30 @@
 
         <div class="row">
 
-            <div class="col s12 m4">
+            <div class="col s3 offset-s3">
                 <div class="card">
                     <div class="card-image">
                         
-                        <span class="card-title">Card Title</span>
+                        <img class="responsive-img" src="http://localhost/Library/assets/img/admin.jpg">
+                        <span class="card-title">Bibliotecario</span>
                         <a class="btn-floating halfway-fab waves-effect waves-light red"><i
-                                class="material-icons">arrow_forward</i></a>
+                                class="material-icons">arrow_forward</i></a>    
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                            because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3 ">
+                <div class="card">
+                    <div class="card-image">
+                        <!-- <img clas="responsive-img" src="../libraries/img/emprestar.jpg"> -->
+                        <img class="responsive-img" src="<?php echo base_url() ?>/assets/img/emprestar.jpg">
+                        <span class="card-title">Leitor</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">arrow_forward</i></a>    
                     </div>
                     <div class="card-content">
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient
@@ -83,11 +100,9 @@
 
 
 
-
-
         </div>
-
-
+    
+        <br><br><br>
     </div>
 
 
